@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "293fd2d9-508f-413b-bc17-a9af33bf398b",
+		"name": "Fase3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}{{port}}/v1/Pepe",
+					"host": [
+						"{{localhost}}{{port}}"
+					],
+					"path": [
+						"v1",
+						"Pepe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "desenvolupament",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{dev.domain.com}}/v1/Pepe",
+					"host": [
+						"{{dev.domain.com}}"
+					],
+					"path": [
+						"v1",
+						"Pepe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prepoducció",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{pre.domain.com}}/v1/Pepe",
+					"host": [
+						"{{pre.domain.com}}"
+					],
+					"path": [
+						"v1",
+						"Pepe"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "12ee4836-3131-46b9-89b1-e5b676a473f0",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "aafb09c2-bc4d-4e6a-bffd-38c2acfa6258",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
